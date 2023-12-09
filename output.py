@@ -27,4 +27,4 @@ def repeat_string(input_string, horison,vertical):
     # 文字列を横に最初の数値分、縦に次の数値分繰り返す
     result = (input_string * horison + '\n') * vertical
     return result.strip() #TODO:strip　末尾の改行を削除
-print(repeat_string("testcode",random.randint(0,10),random.randint(0,10)))尾
+print(repeat_string("testcode",random.randint(0,10),random.randint(0,10)))
